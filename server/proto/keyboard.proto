@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package laptop;
+
+option go_package = 'laptop';
+
+message Keyboard{
+    enum Layout{
+        UNKNOWN = 0;
+        QWERTY = 1;
+        AZWETY = 2;
+    }
+
+    Layout layout = 1;
+    bool backlit = 2;
+}
