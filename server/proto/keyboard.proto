@@ -8,7 +8,8 @@ message Keyboard{
     enum Layout{
         UNKNOWN = 0;
         QWERTY = 1;
-        AZWETY = 2;
+        QWETRZ = 2;
+        AZWETY = 3;
     }
 
     Layout layout = 1;

@@ -15,6 +15,7 @@ message Screen{
         IPS = 1;
         OLED = 2;
     }
+    
     float size = 1;
     Resolution resolution = 2;
     Panel panel = 3;

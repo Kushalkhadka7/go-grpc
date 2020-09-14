@@ -5,10 +5,10 @@ package laptop;
 option go_package = 'laptop';
 
 import "memory.proto";
-import "storage.proto";
-import "processor.proto";
-import "keyboard.proto";
 import "screen.proto";
+import "storage.proto";
+import "keyboard.proto";
+import "processor.proto";
 import "google/protobuf/timestamp.proto";
 
 message Laptop{
